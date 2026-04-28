@@ -1,6 +1,6 @@
 {
   "name": "aura-app",
-"homepage": "https://deuaj-dotcom.github.io/aura-app",
+  "homepage": "https://deuaj-dotcom.github.io/aura-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,10 +9,11 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-"predeploy": "npm run build",
-"deploy": "gh-pages -d dist"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@tailwindcss/postcss": "^4.2.4",
     "lucide-react": "^1.11.0",
     "react": "^19.2.5",
     "react-dom": "^19.2.5"
