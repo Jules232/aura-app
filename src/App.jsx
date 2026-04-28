@@ -1,3 +1,4 @@
+import './index.css'
 import React, { useState, useEffect, useMemo } from 'react';
 import { 
   Heart, Sparkles, Search, Shield, ShieldOff, 
